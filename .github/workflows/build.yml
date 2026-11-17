@@ -28,4 +28,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: kdmapper-bin
-        path: kdmapper/x64/Release/kdmapper.exe
+        path: kdmapper/x64/Release/*.exe
